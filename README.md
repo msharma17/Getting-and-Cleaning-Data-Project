@@ -38,6 +38,7 @@ the training data and 30% the test data.
 
 #### Dataset Files:-
 The data set includes the following files.
+- 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
 - 'activity_labels.txt': Links the class labels with their activity name.
 - 'train/X_train.txt': Training set.
@@ -45,11 +46,25 @@ The data set includes the following files.
 - 'test/X_test.txt': Test set.
 - 'test/y_test.txt': Test labels.
 
-The following files are available for the train and test data. Their descriptions are equivalent. 
+The following files are available for the train and test data. Their descriptions are equivalent.
+Training files are: 
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
-- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
-- 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
+- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. 
+   Every row shows a 128 element vector. 
+   The same description applies for the 'total_acc_y_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
+- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.
+   /body_acc_y_train.txt' ; 
+   / body_acc_z_train.txt'
+ - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. 
+   The units are radians/second. 
+   / body_gyro_y_train.txt' 
+   / body_gyro_z_train.txt'; 
+   
+ Test files with the same description are:-
+- 'test/subject_test.txt'
+- 'test/Inertial Signals/total_acc_x_test.txt'; /'total_acc_y_test.txt';  /'total_acc_z_test.txt'
+- 'test/Inertial Signals/body_acc_x_test.txt'; /body_acc_y_test.txt'; /body_acc_z_test.txt'
+- 'test/Inertial Signals/body_gyro_x_test.txt' ; body_gyro_y_test.txt' ; body_gyro_z_test.txt'
 
 ####Notes:- 
 - Features are normalized and bounded within [-1,1].
