@@ -39,27 +39,27 @@ The following files are available for the train and test data. Their description
 ####Data Processing:-
 The raw data sets are processed with run_analisys.R script which does the following.
 
-1. Merges the training and the test sets to create one data set.
+1). Merges the training and the test sets to create one data set.
 
 Test and training data (X_train.txt, X_test.txt), subject ids (subject_train.txt, subject_test.txt) and activity ids (y_train.txt, y_test.txt) 
 are merged to obtain a single data set.Variables are labelled with the names assigned by original collectors (features.txt).
 
-2. Extracts only the measurements on the mean and standard deviation for each measurement
+2). Extracts only the measurements on the mean and standard deviation for each measurement
 
 From the merged dataset values for mean(variables with labels that contain "mean") and 
 standard deviation(variables with labels that contain "std" for each measurement are extracted.
  
-3. Uses descriptive activity names to name the activities in the data set
+3). Uses descriptive activity names to name the activities in the data set
 
 A new column is added to intermediate data set with the activity description. Activity id column is used to look up descriptions in activity_labels.txt.
 There are 6 Activity labels.WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-4. Appropriately labels the data set with descriptive variable names.
+4). Appropriately labels the data set with descriptive variable names.
 
 Labels given from the original collectors were changed: to obtain valid R names without parentheses, dashes and commas to obtain more descriptive labels.
 Use gsub function for pattern replacement to clean up the data labels.
 
-5. Create a tidy data set 
+5). Create a tidy data set 
 
 Finally a tidy data set with the average of each variable for each activity and each subject is created.
      
