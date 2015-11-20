@@ -63,7 +63,7 @@ Use gsub function for pattern replacement to clean up the data labels.
 
 Finally a tidy data set with the average of each variable for each activity and each subject is created.
      
-####License:
+#####License:
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones 
