@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ==================================================================
 ##Project Description
 
@@ -20,3 +21,7 @@ You should create one R script called run_analysis.R that does the following.
    3.Uses descriptive activity names to name the activities in the data set
    4. Appropriately labels the data set with descriptive activity names.
    5.Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+=======
+# Getting-and-Cleaning-Data-Project
+Repository for Getting and Cleaning Data Course Project
+>>>>>>> 1ea739f4bff106b5b602b7bef3bcb8aec66d95fb
